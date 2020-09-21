@@ -1,4 +1,4 @@
-import  {LOGIN_SUCCESS,LOGIN_FAIL, USER_LOGOUT,GET_PROFILE} from "../actions/authAction"
+import  {LOGIN_SUCCESS,LOGIN_FAIL, USER_LOGOUT,GET_PROFILE,CLEAR_MESSAGE} from "../actions/authAction"
 const token = JSON.parse(localStorage.getItem("token"));
 
 const initialState = token
@@ -25,7 +25,13 @@ export default function (state = initialState, action) {
       return {
         ...state,
         isLoggedIn: false,
-        user: null,
+        message: payload,
+      };
+      case CLEAR_MESSAGE:
+      return {
+        ...state,
+        isLoggedIn: false,
+        message: "",
       };
     case USER_LOGOUT:
       return {
