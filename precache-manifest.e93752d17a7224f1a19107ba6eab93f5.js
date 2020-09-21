@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a719b098f06d6994bfe8dec76003e11f",
+    "revision": "ba98dd853d4d97a8f53c99291716c46f",
     "url": "/test_Auth/index.html"
   },
   {
-    "revision": "2677bd3d575574c053a3",
+    "revision": "dcb536d921f6f5bceb75",
     "url": "/test_Auth/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "b7ee051c9336dfb14d03",
+    "revision": "e16cf8faf77cd0c5955f",
     "url": "/test_Auth/static/css/main.bb4b23ef.chunk.css"
   },
   {
-    "revision": "2677bd3d575574c053a3",
-    "url": "/test_Auth/static/js/2.d279ce02.chunk.js"
+    "revision": "dcb536d921f6f5bceb75",
+    "url": "/test_Auth/static/js/2.ead56ee4.chunk.js"
   },
   {
     "revision": "cacaf3f01dd3bd8237006f7c58951c1c",
-    "url": "/test_Auth/static/js/2.d279ce02.chunk.js.LICENSE.txt"
+    "url": "/test_Auth/static/js/2.ead56ee4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7ee051c9336dfb14d03",
-    "url": "/test_Auth/static/js/main.97f78d4b.chunk.js"
+    "revision": "e16cf8faf77cd0c5955f",
+    "url": "/test_Auth/static/js/main.caa85b65.chunk.js"
   },
   {
     "revision": "7f7643e39c2d0381dfd7",
