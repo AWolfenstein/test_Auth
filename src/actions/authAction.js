@@ -22,7 +22,7 @@ export function submitLogin(data) {
         // "Access-Control-Allow-Methods": "*",
       },
       body: data,
-   
+      mode:"no-cors"
     })
       .then((response) => {
         if (!response.ok) {
@@ -53,7 +53,7 @@ export function getProfile() {
         // "Access-Control-Allow-Methods": "*",
         'Authorization': `Bearer ${token}`,
       },
-     
+      mode:"no-cors"
     })
       .then((response) => {
         if (!response.ok) {
@@ -86,7 +86,7 @@ export function logout() {
         // "Access-Control-Allow-Headers": "*",
         // "Access-Control-Allow-Methods": "*",
         'Authorization': `Bearer ${token}`,
-      },
+      },mode:"no-cors"
      
     })
       .then((response) => {
