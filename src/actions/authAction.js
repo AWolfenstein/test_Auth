@@ -15,11 +15,11 @@ export function submitLogin(data) {
     return fetch(`https://tager.dev.ozitag.com/api/auth/user`, {
       method: "POST",
       headers: {
-        Accept: "application/json",
+        'Accept': "application/json",
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
-        "Access-Control-Allow-Methods": "*",
+        // "Access-Control-Allow-Origin": "*",
+        // "Access-Control-Allow-Headers": "*",
+        // "Access-Control-Allow-Methods": "*",
       },
       body: data,
    
@@ -46,11 +46,11 @@ export function getProfile() {
     return fetch(`https://tager.dev.ozitag.com/api/user/profile`, {
       method: "GET",
       headers: {
-        Accept: "application/json",
+        'Accept': "application/json",
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
-        "Access-Control-Allow-Methods": "*",
+        // "Access-Control-Allow-Origin": "*",
+        // "Access-Control-Allow-Headers": "*",
+        // "Access-Control-Allow-Methods": "*",
         'Authorization': `Bearer ${token}`,
       },
      
@@ -80,11 +80,11 @@ export function logout() {
     return fetch(`https://tager.dev.ozitag.com/api/user/profile`, {
       method: "GET",
       headers: {
-        Accept: "application/json",
+        'Accept': "application/json",
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
-        "Access-Control-Allow-Methods": "*",
+        // "Access-Control-Allow-Origin": "*",
+        // "Access-Control-Allow-Headers": "*",
+        // "Access-Control-Allow-Methods": "*",
         'Authorization': `Bearer ${token}`,
       },
      
