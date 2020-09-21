@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-        <Redirect />
+     
           <Route exact path="/test_Auth" >
             <SignIn  />
           </Route>
