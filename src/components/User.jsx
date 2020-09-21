@@ -7,7 +7,7 @@ const User = ({ user,isLoggedIn }) => {
   const dispatch = useDispatch();
   let history = useHistory()
   useEffect(() => {
-    isLoggedIn ? dispatch(getProfile()) : history.push("/")
+    isLoggedIn ? dispatch(getProfile()) : history.push("/test_Auth")
   }, [isLoggedIn]);
  const logoutNow =()=>{
     dispatch(logout())  
