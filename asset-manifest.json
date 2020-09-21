@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test_Auth/static/css/main.bb4b23ef.chunk.css",
-    "main.js": "/test_Auth/static/js/main.48efcfaf.chunk.js",
-    "main.js.map": "/test_Auth/static/js/main.48efcfaf.chunk.js.map",
+    "main.js": "/test_Auth/static/js/main.b0d8e63d.chunk.js",
+    "main.js.map": "/test_Auth/static/js/main.b0d8e63d.chunk.js.map",
     "runtime-main.js": "/test_Auth/static/js/runtime-main.3606e520.js",
     "runtime-main.js.map": "/test_Auth/static/js/runtime-main.3606e520.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/test_Auth/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.d279ce02.chunk.js": "/test_Auth/static/js/2.d279ce02.chunk.js",
     "static/js/2.d279ce02.chunk.js.map": "/test_Auth/static/js/2.d279ce02.chunk.js.map",
     "index.html": "/test_Auth/index.html",
-    "precache-manifest.0427b8b2ae8d20200341829033f3470b.js": "/test_Auth/precache-manifest.0427b8b2ae8d20200341829033f3470b.js",
+    "precache-manifest.174b67d22e92cbcd806b7e92d5cb238f.js": "/test_Auth/precache-manifest.174b67d22e92cbcd806b7e92d5cb238f.js",
     "service-worker.js": "/test_Auth/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/test_Auth/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.bb4b23ef.chunk.css.map": "/test_Auth/static/css/main.bb4b23ef.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.d279ce02.chunk.js",
     "static/css/main.bb4b23ef.chunk.css",
-    "static/js/main.48efcfaf.chunk.js"
+    "static/js/main.b0d8e63d.chunk.js"
   ]
 }
