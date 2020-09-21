@@ -16,7 +16,8 @@ export function submitLogin(data){
 				method: 'POST', 
  				headers: {
     				'Accept': 'application/json',
-    				'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin':"*",
   				},
 				body:  data, 
 				mode: 'cors'})
@@ -42,6 +43,7 @@ export function getProfile(){
  				headers: {
     				'Accept': 'application/json',
                     'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin':"*",
                     'Authorization': `Bearer ${token}`
   				},
 				mode: 'cors'})
@@ -70,6 +72,7 @@ export function logout() {
  				headers: {
     				'Accept': 'application/json',
                     'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin':"*",
                     'Authorization': `Bearer ${token}`
   				},
 				mode: 'cors'})
